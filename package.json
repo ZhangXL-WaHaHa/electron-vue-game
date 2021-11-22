@@ -4,7 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "mac package": "electron-packager . ElectronDemo --platform=mas --arch=x64 --icon=computer.ico --out=./package --app-version=1.0.0 --overwrite --ignore=node_modules",
+    "win32 package": "electron-packager . ElectronDemo --platform=win32 --arch=x64 --icon=computer.ico --out=./package --app-version=1.0.0 --overwrite --ignore=node_modules"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +19,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^15.3.1"
+    "electron": "^15.3.1",
+    "electron-packager": "^15.4.0"
   }
 }
