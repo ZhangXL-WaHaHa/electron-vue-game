@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "mac package": "electron-packager . ElectronDemo --platform=mas --arch=x64 --icon=computer.ico --out=./package --app-version=1.0.0 --overwrite --ignore=node_modules",
-    "win32 package": "electron-packager . ElectronDemo --platform=win32 --arch=x64 --icon=computer.ico --out=./package --app-version=1.0.0 --overwrite --ignore=node_modules"
+    "macPackage": "electron-packager . ElectronDemo --platform=mas --arch=x64 --icon=computer.ico --out=./package --app-version=1.0.0 --overwrite --ignore=node_modules",
+    "win32Package": "electron-packager . ElectronDemo --platform=win32 --arch=x64 --icon=computer.ico --out=./package --app-version=1.0.0 --overwrite --ignore=node_modules"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [

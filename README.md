@@ -8,6 +8,6 @@ npm install
 
 npm start
 
-npm run win32 pakckage // window系统打包
-npm run mac package // mac系统打包
+npm run win32Package // window系统打包
+npm run macPackage // mac系统打包
 ```
